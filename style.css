@@ -1,0 +1,437 @@
+
+    #in{
+        font-size:  30px; 
+    }
+    .bodyy{
+        text-align: center;
+    }
+    .h{
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    }
+    #heading{
+        color: black;
+        background-color: pink;
+        border-radius: 100px;
+    }
+    
+
+
+
+*/{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.carousel-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.card-img-top{
+    border-top-right-radius:initial;
+    box-sizing: initial ;
+
+    @media screen {
+        
+    }
+}
+
+
+
+.p1{text-align: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 100px;
+    font-style:italic;
+    font-size: 30px;
+    padding: 10px;
+    font-family:Jameel Noori Nastaleeq ;
+
+
+}
+
+.p2{
+    text-align: center;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    font-style:italic;
+    font-size: 20px;
+    padding: 10px;
+    font-family:Jameel Noori Nastaleeq ;
+
+}
+
+
+.p10{text-align: center;
+    background-color:pink;
+    border-style: outset;
+    border-color: black;
+    font-family:Jameel Noori Nastaleeq ;
+
+}
+.p0{
+    text-align: center;
+    background-color:rgb(207, 242, 247);
+    border-style: outset;
+    border-color: black;
+    color:black;
+    font-family:Jameel Noori Nastaleeq ;
+}
+.p6{text-align: center;
+    background-color:rgb(225, 167, 60);
+    border-style: outset;
+    border-color: black;
+    color: black;
+    font-family:Jameel Noori Nastaleeq ;
+
+}
+
+.p7{
+    text-align: center;
+    background-color:rgb(204, 96, 204);
+    border-style: outset;
+    border-color: black;
+    color: black;
+    font-family:Jameel Noori Nastaleeq ;
+
+}
+
+.p8{
+    text-align: center;
+    background-color:rgb(82, 181, 82);
+    border-style: outset;
+    border-color: black;
+    color: black;
+    font-family:Jameel Noori Nastaleeq ;
+
+}
+
+.p9{
+    text-align: center;
+    background-color:rgb(219, 219, 87);
+    border-style: outset;
+    border-color: black;
+    color: black;
+    font-family:Jameel Noori Nastaleeq ;
+
+}
+
+.card{
+    border-bottom-left-radius: initial;
+}
+
+
+
+
+.new{
+    text-align: center;
+    border: solid;
+    background-color: skyblue;
+    
+}
+
+.index{
+    background-color: black;
+}
+/* .gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+<div class="gallery">
+        <a target="_blank" href="">
+          <img src="b.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="">
+          <img src="b.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="c.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="d.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div></div>
+
+        <div> <div class="gallery">
+            <a target="_blank" href="img_mountains.jpg">
+              <img src="e.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+
+      </div>
+
+        <div> <div class="gallery">
+            <a target="_blank" href="img_mountains.jpg">
+              <img src="f.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+    </div> */
+
+
+
+
+/* header{top: 0%;
+    background-color: rgb(58, 20, 121);
+    color: white;
+    height: 80px;
+    width: auto;
+    text-align: center;
+font-style: oblique;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 30px;
+} */
+
+/* .h2{ */
+    /* background-color: rgb(58, 20, 121); */
+    /* color: white; */
+    /* height: 80px; */
+    /* width: auto; */
+
+    /* overflow: hidden; */
+/* } */
+    
+
+a:link a:visited{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+ 
+
+ /* { margin: 0; */
+    /* padding: 0;} */
+
+    .nav {
+        float: left;
+        background: black;
+        font-size: 10px;
+        /* font-family: arial; */
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    /* Media Query for screens between 600px and 1024px */
+    @media screen and (min-width: 600px) and (max-width: 1024px) {
+        .nav {
+            font-size: 10px; /* Adjust font size for this screen range */
+            /* You can add more specific styles for this screen range here */
+        }
+    }
+    
+nav ul{
+    list-style: none;
+    
+    display: flex;
+    /* justify-content: center; */
+}
+nav ul a{margin: 5%;
+    float:right;
+    padding:  15px;
+    word-spacing: 0%;
+    text-decoration: none;
+    color:red;
+    width: 100%;
+    display: block;
+    
+}
+ 
+ li a:hover{
+    background-color: blue;
+    border-radius: 100px;
+
+ }
+ 
+.header {
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-family:Jameel Noori Nastaleeq ;
+
+}
+/* .navbar {
+    background-color:blue;
+    border-radius:100px ;
+    word-spacing: 0%;
+    
+}
+.navbar a {
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: black
+} */
+
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.footer {
+    background-color: brown;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    @media (max-width: 768px) {
+        /* Adjust styles for smaller screens */}
+
+}
+
+
+    /*  */
+
+.footer a {
+    color: white;
+    margin-right: 10px;
+}
+
+ 
+/* nav ul li a:hover{
+    font-size: 15px;
+    transition: 0.6s;
+}
+li:nth-child(6n + 1){
+    background: red;
+}
+li:nth-child(6n + 2){
+    background: gold;
+}
+li:nth-child(6n + 3){
+    background: black;
+}
+li:nth-child(6n + 4){
+    background: purple;
+}
+li:nth-child(6n + 5){
+    background: green;
+}
+li:nth-child(6n + 6){
+    background: blue;
+} 
+
+.six{
+ text-align: center;
+ background-image: url(Main-Building.jpg);
+} */
+
+
+
+/* h2{background-color: purple;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 300px;
+   size:50px;
+} */
+
+ /* .h4{
+    /* padding-bottom: 20px; */
+    /* text-align: center;
+    size: 500px; */
+    /* margin-top:90px;  */
+/* 
+} */
+/* CSS */
+/* .six {
+    background-image: url('path_to_image_file/u12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */ 
+    /* ... rest of your styles ... */
+/* } */
+
+/* .Seven {
+    background-image: url('path_to_image_file/u11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* ... rest of your styles ... */
+
+
+/* .Eight {
+    background-image: url('path_to_image_file/u13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* ... rest of your styles ...
+}
+
+.Nine {
+    background-image: url('path_to_image_file/u14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* ... rest of your styles ... */
+/* }
+
+.Ten {
+    background-image: url('path_to_image_file/u15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */ 
+    /* ... rest of your styles ... */
+/* }
+
+.index {
+    background-image: url('path_to_image_file/u16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* ... rest of your styles ... */
+/* } */ 
+/* Example of styling the sliders */
+
+.slider {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+.card-text{text-align: center;
+    font-family:Jameel Noori Nastaleeq ;
+
+}

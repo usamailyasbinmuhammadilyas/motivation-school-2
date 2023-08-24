@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+
+        <body class="eight"> <div><header class="header"><h1>Motivational School</h1>
+            <!-- <nav class="nav"><ul>
+              <li>  <a href="index.html">Home</a></li>
+               <li> <a href="new.html">Online Admission</a></li>
+                <li><a href="6.html">Sixth Class</a></li>
+               <li> <a href="7.html">Seventh Class</a></li>
+               <li> <a href="8.html">Eighth Class</a></li>
+               <li> <a href="9.html">Ninth Class</a></li>
+                <li><a href="10.html">Tenth Class</a></li>
+            </ul> </nav>
+        </header>
+    </div> -->
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">   Home</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="new.html">Online Admission</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="6.html">Sixth Class</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="7.html">Seventh Class</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="8.html">Eighth Class</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="9.html">Ninth Class</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="10.html">Tenth Class</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="table.html">Read the tables Which you want</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header></div>
+    <header>
+        <h1 class="p1">Online Registration Form</h1>
+    </header>
+    <main>
+        
+        
+    <form action="submit_admission.php" method="post" class="new"> <br><br>
+        <!-- Full Name -->
+        <label for="name" >Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Write here your name...">
+        <br><br>
+        
+        <!-- Father's Name -->
+        <label for="fatherName">Father's Name:</label>
+        <input type="text" id="fatherName" name="fatherName" required placeholder="Write here father name...">
+        <br><br>
+        
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required placeholder="Write here Age...">
+        <br><br>
+        
+        <!-- Class Selection -->
+        <label for="class"> Your School Education is:</label>
+        <select id="class" name="class" required>
+            <option value="" disabled selected>Select a Class</option>
+            <option value="Nill">Nill </option>
+            <option value="6">Six </option>
+            <option value="7">Seven </option>
+            <option value="8">Eight </option>
+            <option value="9">Nine </option>
+            <option value="10">Ten </option>
+            <option value="F.A/Fsc">F.A/Fsc</option>
+            <option value="B.A/Bsc">B.A/Bsc</option>
+            <option value="M.A/Msc">M.A/Msc</option>
+            <option value="Other">Other</option>
+            <!-- Add more class options as needed -->
+        </select>
+        
+        
+        <!-- Subjects Selection -->
+        <label>Which Subject you wana Read or Interested In:</label>
+        <br>
+        <input type="radio" id="hifzQuran" name="subjects" value="Hifz ul Quran">
+        <label for="hifzQuran">Hifz ul Quran</label>
+        <br>
+        <input type="radio" id="tajweedQuran" name="subjects" value="Tajweed ul Quran">
+        <label for="tajweedQuran">Tajweed ul Quran</label>
+        <br>
+        <input type="radio" id="darssNizami" name="subjects" value="Darss e Nizami">
+        <label for="darssNizami">Darss e Nizami</label>
+        <!-- Add more subject radio buttons as needed -->
+        <br><br>
+        
+        <!-- Add more subject checkboxes as needed -->
+        <br><br>
+        
+        <!-- Contact Information -->
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required placeholder="Write here Number...">
+        <br><br>
+        
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Write here your Email...">
+        <br><br>
+        
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="8" required placeholder="Write here Address..."></textarea>
+        
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Submit"><br><br>
+      </form>
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+              <div class=" col-sm-12 col-md-6 col-lg-4 ">
+                <h4>Contact Us</h4>
+                    <p>Email: malikhyallahmera@gmail.com</p>
+                    <p>Phone: +92416651309</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <a href="https://www.facebook.com/profile.php?id=100093138750313&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCugHOZAfZWy1uiwlwCeR2Mw"><i class="fab fa-youtube"></i></a>
+                    <a href="https://wa.me/qr/GE4VJIBT4QYFE1 "><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates.</p>
+                    <form>
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <p>&copy; 2023 My Page. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Adding Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  </main>
+</body>
+</html>
